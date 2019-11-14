@@ -1,0 +1,45 @@
+{
+  "name": "next-bulma-with-redux-thunk",
+  "version": "1.0.0",
+  "description": "NextJs with Bulma CSS framework, redux, redux thunk, selectors,immutableJs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "prettier": "prettier --write '**/*.js{x,}'"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "bulma": "^0.7.5",
+    "classnames": "^2.2.6",
+    "immutable": "^4.0.0-rc.12",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.11",
+    "next": "^8.1.0",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
+    "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-infinite-scroll-component": "^5.0.3",
+    "react-redux": "^7.1.0",
+    "reactstrap": "^8.1.1",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-jsx-plugin-sass": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.1.2",
+    "prettier": "^1.18.2",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
